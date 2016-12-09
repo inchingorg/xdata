@@ -1,0 +1,41 @@
+{
+  "name": "xdata",
+  "version": "1.0.0",
+  "description": "xdata library ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inchingorg/xdata.git"
+  },
+  "keywords": [
+    "encoding",
+    "encode",
+    "decode",
+    "utf8",
+    "utf-8",
+    "gbk",
+    "hex",
+    "gb2312",
+    "gb18030"
+  ],
+  "author": "Cody Fei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inchingorg/xdata/issues"
+  },
+  "homepage": "https://github.com/inchingorg/xdata#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "hex": "^0.1.0",
+    "iconv-lite": "^0.4.13"
+  }
+}
