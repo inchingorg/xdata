@@ -1,6 +1,12 @@
 
 `xdata` is a util to process data, like encoding, decoding, convert encoding methods.
 
+## Usage
+
+```
+npm install @inchingorg/xdata
+```
+
 ## Supported encodings
 
 1.  Node.js Native encodings: utf8, ucs2 / utf16le, ascii, binary, base64, hex

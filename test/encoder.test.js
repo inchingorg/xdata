@@ -1,4 +1,4 @@
-var encoder = require('../lib/encode');
+var encoder = require('../lib/encoder');
 
 var chai = require("chai");
 chai.should();
