@@ -36,4 +36,9 @@ describe('Encoding', function () {
         var actual = encoder.format(data, 'pretty');
         actual.should.equal('d6 d0 b9 fa');
     });
+
+    it('format string', function () {
+        var actual = encoder.format('d6d0b9fa', 'pretty');
+        actual.should.equal('d6 d0 b9 fa');
+    });
 });
