@@ -21,7 +21,10 @@ describe('Encoding', function () {
     });
 
     it('as hex map style', function () {
-        var actual = encoder.format(data, 'map');
+        var data = "中国，宇航员，杨利伟，中央电视台。玩儿呗，钱哪。";
+
+        var actual = encoder.format(encoder.encode(data, 'utf-8'), 'map');
+        console.log(actual)
         actual.should.not.null;
 
     });
@@ -37,8 +40,9 @@ describe('Encoding', function () {
         actual.should.equal('d6 d0 b9 fa');
     });
 
-    it('format string', function () {
-        var actual = encoder.format('d6d0b9fa', 'pretty');
-        actual.should.equal('d6 d0 b9 fa');
+    it('as base64 style', function () {
+        var actual = encoder.format(data, 'base64');
+        console.log(actual);
+        actual.should.equal('1tC5+g==');
     });
 });
