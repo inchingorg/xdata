@@ -45,4 +45,9 @@ describe('Encoding', function () {
         console.log(actual);
         actual.should.equal('1tC5+g==');
     });
+
+    it('string format', function () {
+        var actual = encoder.format('1233efab');
+        actual.should.equal('12 33 ef ab');
+    });
 });

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03e2a01e-c7fd-4d3c-8524-11562c88b802" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/decoder.js" afterPath="$PROJECT_DIR$/lib/decoder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/encoder.js" afterPath="$PROJECT_DIR$/lib/encoder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/encoder.test.js" afterPath="$PROJECT_DIR$/test/encoder.test.js" />
     </list>
     <ignored path="xdata.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="decoder.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="decoder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/decoder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="248">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="encoder.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="encoder.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/encoder.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="261">
+              <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -99,8 +99,8 @@
       <file leaf-file-name="encoder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/encoder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -150,11 +150,11 @@
         <option value="$PROJECT_DIR$/test/a.test.js" />
         <option value="$PROJECT_DIR$/test/ecrypto.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/encoder.js" />
-        <option value="$PROJECT_DIR$/test/encoder.test.js" />
         <option value="$PROJECT_DIR$/lib/format.js" />
         <option value="$PROJECT_DIR$/lib/base64.js" />
         <option value="$PROJECT_DIR$/lib/decoder.js" />
+        <option value="$PROJECT_DIR$/lib/encoder.js" />
+        <option value="$PROJECT_DIR$/test/encoder.test.js" />
       </list>
     </option>
   </component>
@@ -277,39 +277,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.test/encoder.test.js">
-    <configuration default="false" name="Crypto.DES HEX" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/ecrypto.test.js</test-file>
-      <test-names>
-        <name value="Crypto" />
-        <name value="DES HEX" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="Encoding.as pretty style" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/encoder.test.js</test-file>
-      <test-names>
-        <name value="Encoding" />
-        <name value="as pretty style" />
-      </test-names>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Mocha.Encoding.string format">
     <configuration default="false" name="test/encoder.test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -351,6 +319,37 @@
       <test-names>
         <name value="Encoding" />
         <name value="as base64 style" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Encoding" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/encoder.test.js</test-file>
+      <test-names>
+        <name value="Encoding" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Encoding.string format" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/encoder.test.js</test-file>
+      <test-names>
+        <name value="Encoding" />
+        <name value="string format" />
       </test-names>
       <method />
     </configuration>
@@ -412,19 +411,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.ecrypt.test.js" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Crypto.DES HEX" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.Encoding.as pretty style" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.test/encoder.test.js" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Encoding.as hex map style" />
-      <item index="5" class="java.lang.String" itemvalue="Mocha.Encoding.as base64 style" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.test/encoder.test.js" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Encoding.as hex map style" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Encoding.as base64 style" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Encoding" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.Encoding.string format" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test/encoder.test.js" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Encoding.as base64 style" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Encoding.as hex map style" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Encoding.as pretty style" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Crypto.DES HEX" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Encoding.string format" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Encoding" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.test/encoder.test.js" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Encoding.as base64 style" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Encoding.as hex map style" />
       </list>
     </recent_temporary>
   </component>
@@ -451,16 +450,13 @@
       <workItem from="1482677489077" duration="4303000" />
       <workItem from="1482848817038" duration="4064000" />
       <workItem from="1483197299534" duration="5420000" />
-      <workItem from="1483207286626" duration="130000" />
+      <workItem from="1483207286626" duration="1358000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Encoding_as_base64_style - 2017.01.01 at 00h 16m 19s.xml">
-      <configuration name="Encoding.as base64 style" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Encoding_as_base64_style - 2017.01.01 at 00h 16m 31s.xml">
-      <configuration name="Encoding.as base64 style" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Encoding - 2017.01.01 at 02h 23m 33s.xml">
+      <configuration name="Encoding" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="Encoding_as_base64_style - 2017.01.01 at 00h 16m 47s.xml">
       <configuration name="Encoding.as base64 style" configurationId="mocha-javascript-test-runner" />
@@ -477,6 +473,9 @@
     <history-entry file="Encoding_as_hex_map_style - 2016.12.31 at 23h 30m 06s.xml">
       <configuration name="Encoding.as hex map style" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Encoding_string_format - 2017.01.01 at 02h 24m 34s.xml">
+      <configuration name="Encoding.string format" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
     <history-entry file="test_encoder_test_js - 2016.12.27 at 23h 37m 43s.xml">
       <configuration name="test/encoder.test.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -488,7 +487,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40443000" />
+    <option name="totallyTimeSpent" value="41671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -498,19 +497,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941263" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39941263" sideWeight="0.49722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="123" width="1080" height="573" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39941263" sideWeight="0.49722" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -854,34 +853,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ecrypto.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/encoder.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/base64.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/encoder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -904,8 +879,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/decoder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="248">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ecrypto.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/encoder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/encoder.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
           <folding />
         </state>
       </provider>
