@@ -31,4 +31,15 @@ describe('Crypto', function () {
 
         actual.should.equal(expected);
     });
+
+    it('Des Decript', function () {
+        var actual = crypto.DES.decrypt(
+            crypto.lib.CipherParams.create({ciphertext: crypto.enc.Hex.parse('1de5279dae3bed6f')}),
+            crypto.enc.Hex.parse('0000000000002000'), {
+                mode: crypto.mode.ECB,
+                padding: crypto.pad.NoPadding
+            }).toString();
+
+        console.log(actual);
+    });
 });
